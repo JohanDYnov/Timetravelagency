@@ -14,7 +14,59 @@ export const HomePage = () => {
       <section className="relative min-h-screen flex items-center justify-center px-4 py-20">
         {/* Animated background */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1671647485629-4cdfd5d526ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0aW1lJTIwdHJhdmVsJTIwY2xvY2slMjBwb3J0YWwlMjBzcGFjZXxlbnwxfHx8fDE3NzY0MTM4NDl8MA&ixlib=rb-4.1.0&q=80&w=1080')] bg-cover bg-center opacity-10" />
+          {/* Animated gradient orbs */}
+          <motion.div
+            className="absolute top-0 left-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"
+            animate={{
+              x: [0, 100, 0],
+              y: [0, 50, 0],
+              scale: [1, 1.2, 1],
+            }}
+            transition={{
+              duration: 20,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+          />
+          <motion.div
+            className="absolute top-1/4 right-0 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl"
+            animate={{
+              x: [0, -100, 0],
+              y: [0, 100, 0],
+              scale: [1, 1.3, 1],
+            }}
+            transition={{
+              duration: 25,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+          />
+          <motion.div
+            className="absolute bottom-0 left-1/3 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl"
+            animate={{
+              x: [0, -50, 0],
+              y: [0, -50, 0],
+              scale: [1, 1.1, 1],
+            }}
+            transition={{
+              duration: 18,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+          />
+          
+          {/* Animated background image */}
+          <motion.div 
+            className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1565798528724-efd44352c79b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlaWZmZWwlMjB0b3dlciUyMGNvbnN0cnVjdGlvbiUyMHZpbnRhZ2UlMjBoaXN0b3JpY2FsJTIwYnVpbGRpbmd8ZW58MXx8fHwxNzc2NDE4Mjc4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral')] bg-cover bg-center opacity-10"
+            animate={{
+              scale: [1, 1.05, 1],
+            }}
+            transition={{
+              duration: 30,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-950/50 to-slate-950" />
         </div>
 

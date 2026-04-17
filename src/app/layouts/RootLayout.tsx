@@ -25,7 +25,7 @@ export const RootLayout = () => {
                 <Sparkles className="w-4 h-4 text-yellow-400 absolute -top-1 -right-1 animate-pulse" />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                ChronoVoyage
+                TimeTravelAgency
               </span>
             </Link>
 
@@ -133,7 +133,7 @@ export const RootLayout = () => {
           <div className="text-center text-slate-400">
             <p className="flex items-center justify-center gap-2">
               <Clock className="w-4 h-4" />
-              © 2026 ChronoVoyage - Voyagez à travers le temps en toute sécurité
+              © 2026 TimeTravelAgency - Voyagez à travers le temps en toute sécurité
             </p>
             <p className="text-sm mt-2 text-slate-500">
               Agréé par l'Autorité Temporelle Internationale
