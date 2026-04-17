@@ -8,6 +8,15 @@ https://timetravelagency-snowy.vercel.app/
 
 ---
 
+## 👥 Équipe
+
+* DUPRAZ Johan
+* HEMING Sonia
+* CHOUTEAU Camille
+* GALLOUIN Émilie
+
+---
+
 ## 🛠️ Stack Technique
 
 * React (via Vite)
@@ -77,15 +86,6 @@ Déploiement réalisé via Vercel (CI/CD automatique connecté au repository Git
 ├── package.json    # Dépendances & scripts
 ├── vite.config.ts  # Configuration Vite
 ```
-
----
-
-## 👥 Équipe
-
-* DUPRAZ Johan
-* HEMING Sonia
-* CHOUTEAU Camille
-* GALLOUIN Émilie
 
 ---
 
